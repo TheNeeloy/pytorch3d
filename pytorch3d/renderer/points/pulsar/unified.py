@@ -102,7 +102,7 @@ class PulsarPointsRenderer(nn.Module):
             height=height,
             max_num_balls=max_num_spheres,
             orthogonal_projection=orthogonal_projection,
-            right_handed_system=False,
+            right_handed_system=True,
             n_channels=n_channels,
             **kwargs,
         )
